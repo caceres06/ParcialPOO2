@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lorienses;
+package Mogadorianos;
 
 import segundoparcialpoo.Ejercito;
 
@@ -11,9 +11,9 @@ import segundoparcialpoo.Ejercito;
  *
  * @author Mabel
  */
-public class Garde implements Ejercito{
+public class Exploradores implements Ejercito{
     @Override
     public void Entrenar(){
-        System.out.println("El soldado Garde esta siendo entrenado");
+        System.out.println("Se esta creando un grupo de exploradores");
     }
 }

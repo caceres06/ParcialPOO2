@@ -11,9 +11,9 @@ import segundoparcialpoo.Ejercito;
  *
  * @author Mabel
  */
-public class Garde implements Ejercito{
+public class Cepans implements Ejercito {
     @Override
     public void Entrenar(){
-        System.out.println("El soldado Garde esta siendo entrenado");
+        System.out.println("El escuadron Cepan se esta entrenando");
     }
 }
