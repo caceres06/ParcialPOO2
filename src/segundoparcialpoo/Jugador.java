@@ -9,7 +9,8 @@ package segundoparcialpoo;
  *
  * @author Mabel
  */
-public interface Ejercito {
-    void Entrenar();
-    void Atacar();
-}
+public class Jugador{
+    String Nombre;
+
+    }
+

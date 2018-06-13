@@ -9,7 +9,6 @@ package segundoparcialpoo;
  *
  * @author Mabel
  */
-public interface Ejercito {
-    void Entrenar();
-    void Atacar();
+public interface AbstractEjercito {
+    Ejercito getEjercito(String Type);
 }
