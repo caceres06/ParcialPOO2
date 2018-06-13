@@ -11,14 +11,10 @@ import segundoparcialpoo.Raza;
  *
  * @author Mabel
  */
-public class Loriense extends Raza {
-
-    public Loriense(String name) {
-        super.setName(name);
-    }
-    
+public class Loriense implements Raza{
     @Override
-    public String typeRaza() {
-        return "El jugador es un Loriense de nombre"+" "+super.getName();
+    public void crear() {
+        System.out.println(ventajas);
     }
+    String ventajas = "Costo de creación medio,fortaleza media";
 }

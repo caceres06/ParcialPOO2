@@ -11,6 +11,24 @@ package segundoparcialpoo;
  */
 public class Jugador{
     String Nombre;
+    Raza raza;
 
+    public Jugador() {
     }
 
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public Raza getRaza() {
+        return raza;
+    }
+
+    public void setRaza(Raza raza) {
+        this.raza = raza;
+    }
+}

@@ -11,12 +11,10 @@ import segundoparcialpoo.Raza;
  *
  * @author Mabel
  */
-public class Mogadoriano extends Raza {
-     public Mogadoriano(String name) {
-        super.setName(name);
-    }
+public class Mogadoriano implements Raza{
     @Override
-    public String typeRaza() {
-        return "El jugador es un Mogadoriano de nombre"+" "+super.getName();
+    public void crear() {
+        System.out.println(ventajas);
     }
+    String ventajas = "Costo de creación medio,fortaleza media"; 
 }

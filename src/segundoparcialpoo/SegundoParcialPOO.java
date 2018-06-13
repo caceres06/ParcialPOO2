@@ -17,17 +17,16 @@ public class SegundoParcialPOO {
      */
     public static void main(String[] args) {
         boolean id=true;
+        String Nombre = null;
+        int raza=0;
         Scanner sc = new Scanner(System.in);
+        Jugador player = new Jugador();
        System.out.println("Bienvenido a MabelCáceres's World");
        while(id){
            System.out.println("Ingrese su nombre: ");
-           /*Jugador player = new Jugador();
-           player.Nombre=sc.nextLine();
-           player.raza=raza.nextLine();
-           System.out.println("Jugador:"+" "+player.Nombre+" "+ "Su raza es:"+" "+"Raza alv");
-           System.out.println("Ingrese su nombre: ");
-           Jugador player1 = new Jugador(sc.nextLine());
-           System.out.println("Jugador:"+" "+player1.Nombre+" "+ "Su raza es:"+" "+"Raza alv");*/
+           player.setNombre(Nombre);
+           //System.out.println("Ingrese su Raza");
+           
            id=false;   
         }
        System.out.println("¡JUGADORES LISTOS!");
