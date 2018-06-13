@@ -11,10 +11,6 @@ package segundoparcialpoo;
  */
 public class Jugador{
     String Nombre;
-    Raza raza;
-
-    public Jugador() {
-    }
 
     public String getNombre() {
         return Nombre;
@@ -23,12 +19,16 @@ public class Jugador{
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
     }
-
-    public Raza getRaza() {
-        return raza;
+    public void Raza(String raza){
+        switch(raza){
+            case "Loriense":
+            Raza loriense;
+            loriense = RazaFactory.getRaza(RazaType.Lor);
+            loriense.crear();
+            case "Mog":
+            Raza mog;
+            mog = RazaFactory.getRaza(RazaType.Mog);
+            mog.crear();
     }
-
-    public void setRaza(Raza raza) {
-        this.raza = raza;
-    }
+}
 }

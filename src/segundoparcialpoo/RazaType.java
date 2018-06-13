@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lorien;
-
-import segundoparcialpoo.Raza;
+package segundoparcialpoo;
 
 /**
  *
  * @author Mabel
  */
-public class Loriense implements Raza{
-
-    @Override
-    public void crear() {
-        System.out.println("¡LORIENSES LA VICTORIA ES NUESTRA!");
-    }
-   
+public enum RazaType {
+    Lor,Mog,Kryp;
 }

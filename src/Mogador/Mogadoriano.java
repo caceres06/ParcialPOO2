@@ -7,14 +7,18 @@ package Mogador;
 
 import segundoparcialpoo.Raza;
 
+
 /**
  *
  * @author Mabel
  */
 public class Mogadoriano implements Raza{
+
     @Override
     public void crear() {
-        System.out.println(ventajas);
+       System.out.println("MOGADORIANOS A LA VICTORIA");
     }
-    String ventajas = "Costo de creación medio,fortaleza media"; 
+
+    
+
 }

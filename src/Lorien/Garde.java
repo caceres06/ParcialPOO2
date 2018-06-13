@@ -22,5 +22,10 @@ public class Garde implements Ejercito{
     }
     int vida;
     int ataque;
+
+    @Override
+    public void Defender() {
+    System.out.println("ATACKKKKK!!!");
+    }
     
 }

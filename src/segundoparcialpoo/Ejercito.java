@@ -12,4 +12,5 @@ package segundoparcialpoo;
 public interface Ejercito {
     void Entrenar();
     void Atacar();
+    void Defender();
 }

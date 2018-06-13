@@ -10,5 +10,5 @@ package segundoparcialpoo;
  * @author Mabel
  */
 public interface Raza {
-     void crear();
+    void crear();
 }
