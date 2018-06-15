@@ -5,6 +5,7 @@
  */
 package Lorien;
 
+import java.util.ArrayList;
 import segundoparcialpoo.Raza;
 
 /**
@@ -16,6 +17,6 @@ public class Loriense implements Raza{
     @Override
     public void crear() {
         System.out.println("¡LORIENSES LA VICTORIA ES NUESTRA!");
+        ArrayList<String>Mundo=new ArrayList<>();
     }
-   
 }

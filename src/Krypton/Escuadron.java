@@ -11,19 +11,21 @@ import segundoparcialpoo.Ejercito;
  *
  * @author Mabel
  */
-public class Superman implements Ejercito{
+public class Escuadron implements Ejercito {
+
     @Override
-    public void Entrenar(){
-        System.out.println("Superman esta tomando un baño de sol");
+    public void Entrenar() {
+        
     }
+
     @Override
-    public void Atacar(){
-        System.out.println("");
+    public void Atacar() {
+        
     }
+
     @Override
     public void Defender() {
-        System.out.println("¡POR RAO!");
+        
     }
-    int vida;
-    int ataque;
+    
 }

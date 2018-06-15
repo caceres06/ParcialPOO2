@@ -25,10 +25,19 @@ public class Jugador{
             Raza loriense;
             loriense = RazaFactory.getRaza(RazaType.Lor);
             loriense.crear();
+            
+            break;
             case "Mog":
-            Raza mog;
-            mog = RazaFactory.getRaza(RazaType.Mog);
-            mog.crear();
+              Raza mog;
+              mog = RazaFactory.getRaza(RazaType.Mog);
+              mog.crear();
+            break;
+            case "Kryptoniano":
+              Raza kryptoniano;
+              kryptoniano = RazaFactory.getRaza(RazaType.Kryp);
+              kryptoniano.crear();
+            break;
+        }
     }
-}
-}
+    
+        }

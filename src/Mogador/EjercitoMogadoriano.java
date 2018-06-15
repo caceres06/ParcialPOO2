@@ -18,6 +18,18 @@ public class EjercitoMogadoriano implements AbstractEjercito {
         switch(type){
             case "Exploradores":
                     return new Exploradores();
+            case "Piken":
+                return new Piken();
+        }
+        return null;
+    }
+    public Ejercito getAtacar(String type){
+        switch (type){
+            case "Exploradores":
+                 return new Exploradores();
+         
+             case "Piken":
+                 return new Piken();
         }
         return null;
     }
