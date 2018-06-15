@@ -37,6 +37,7 @@ public class SegundoParcialPOO {
         System.out.println("3.Kryptoniano");
         player2.Raza(sc.nextLine());
         System.out.println("¡JUGADORES LISTOS!");
+        Menu m = player.m;
         boolean id;
        }
 }

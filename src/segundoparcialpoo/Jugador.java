@@ -11,11 +11,7 @@ package segundoparcialpoo;
  */
 public class Jugador{
     String Nombre;
-
-    public String getNombre() {
-        return Nombre;
-    }
-
+    Menu m=new Menu();
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
     }
@@ -38,6 +34,7 @@ public class Jugador{
               kryptoniano.crear();
             break;
         }
+        m.Ejercito();
     }
     
         }
