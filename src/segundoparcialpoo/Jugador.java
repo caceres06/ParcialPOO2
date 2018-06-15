@@ -34,7 +34,6 @@ public class Jugador{
               kryptoniano.crear();
             break;
         }
-        m.Ejercito();
     }
     
         }

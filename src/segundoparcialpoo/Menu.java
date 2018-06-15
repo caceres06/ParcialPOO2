@@ -13,21 +13,16 @@ import Estructura.Estructype;
  * @author Mabel
  */
 public class Menu {
-
+    AbstractEjercito ejercito;
     public Menu() {
     }
     
-    public void Ejercito() {
-    AbstractEjercito ejercito;
-    ejercito=FactoryProducer.getEjercito("Lorien");
-            
-}
     public void Estructura(String type){
         switch(type){
             case "Recolector 1":
             Estructura Reco1;
-            Reco1 = EstrucFactory.getEstructura(Estructype.rec1);
-            Reco1.crear();
+            Reco1 = EstrucFactory.getEstructura(Estructype.cm);
+            Reco1.crear();          
             break;
             case "Recolector 2":
             Estructura Reco2;

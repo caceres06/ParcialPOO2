@@ -10,7 +10,7 @@ package Estructura;
  * @author Mabel
  */
 public class EstrucFactory {
-    static Estructura getEstructura(Estructype op){
+    public static Estructura getEstructura(Estructype op){
         switch (op){
             case rec1:
                 return new Reco1();

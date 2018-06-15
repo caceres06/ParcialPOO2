@@ -15,5 +15,4 @@ public class Reco1 implements Estructura{
     public void crear() {
        System.out.println("Se ha creado el recolector de recurso1");
     }
-    
 }
